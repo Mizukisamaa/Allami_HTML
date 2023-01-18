@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@100;400&family=Roboto&display=swap');
 
 @font-face {
     font-family: SpaceGrotesk;
@@ -27,7 +29,7 @@ body{
     height: 100%;
     width: 100%;
     color: #efd592;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
 
 
 }
@@ -116,7 +118,7 @@ body{
 
 .card{
     
-    height: 750px;
+    height: 600px;
 
     width: 500px;
 
@@ -138,11 +140,11 @@ body{
 
     z-index: 2;
 
-    position: relative;
+   
     width: 150px;
     height: 40px;
    
-    transform: translate(245%, -150%);
+    transform: translate(255%, -105%);
 
     display: flex;
     justify-content: center;
@@ -156,31 +158,39 @@ body{
     height: 100%;
     width: 100%;
 
+
+    font-family: 'Montserrat', sans-serif;
+
    
 
 }
 
 .text h1{
     color: #33793f;
+    font-size: 36px;
+
+    font-family: 'Montserrat', sans-serif;
+  
+    margin-bottom: 10px;
 }
 
 .rectangle{
     background-color: #33793f;
     color: #fff257;
 
-    border: 2px solid #33793f;
+    border: 1px solid #33793f;
 
-    width: 100%;
-    height: 60px;
-
-    bottom: 0%;
-    right: 0%;
-
+    width: 540px;
+    height: 30px;
+  
+    transform: translate(-3.85%, 0%);
+    
+    font-size: 14px;
     margin: 0;
 
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .rectangle:hover{
@@ -190,10 +200,14 @@ body{
     cursor: pointer;
 }
 
+.rectangle span{
+    padding-right: 10px;
+    font-size: 18px;
+}
 
 
 .det{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
 
     height: 100%;
@@ -203,12 +217,13 @@ body{
 
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 h1{
     color: #242d38;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 
     size: 36px;
 
@@ -220,7 +235,7 @@ h1{
 }
 
 .text p {
-    color: #242d38;
+    color: #33793f;
 
     margin: 0%;
     margin-left: 2%;
@@ -231,12 +246,14 @@ h1{
 
 .smalltext{
     color: #33793f;
+    font-family: 'Roboto', sans-serif;
     padding-top: 2%;
     padding-bottom: 5%;
     border-bottom: 1px solid #242d38;
 }
 .boldtext{
-     color: #33793f;
-    font-family: 'Poppins', sans-serif;
+    color: #33793f;
+    font-family: 'Roboto', sans-serif;
     height: fit-content;
+    font-size: 16px;
 }
